@@ -7,3 +7,9 @@ media_url = "/media/"
 media_root = "media/"
 static_url = "/static/"
 secure_links_secret = "insecure-mkjnhygtfdhgvjbknli"
+
+[celery]
+broker_url = "redis://localhost:6379/2"
+task_time_limit = 3600
+visibility_timeout = 3600
+polling_interval = 1
