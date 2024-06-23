@@ -7,5 +7,6 @@ settings_include(
     "database.py",
     "base.py",
     "storage.py",
+    "celery.py",
     optional("local_settings.py"),
 )
