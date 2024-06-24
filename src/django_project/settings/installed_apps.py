@@ -8,4 +8,5 @@ INSTALLED_APPS = [
     # Apps
     "apps.xml_transit",
     # Third-party apps
+    "rangefilter",
 ]
