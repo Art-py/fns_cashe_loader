@@ -8,5 +8,6 @@ settings_include(
     "base.py",
     "storage.py",
     "celery.py",
+    "ftp.py",
     optional("local_settings.py"),
 )
