@@ -13,3 +13,8 @@ broker_url = "redis://localhost:6379/2"
 task_time_limit = 3600
 visibility_timeout = 3600
 polling_interval = 1
+
+[ftp]
+host = ""
+cert = ""
+pass = ""
